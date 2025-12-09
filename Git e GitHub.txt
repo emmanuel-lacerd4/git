@@ -1,0 +1,55 @@
+ATALHOS:
+
+Crtl + L = limpar a tela.
+
+COMANDOS:
+git version = verifica a versão do Git instalado;
+git status = verifica se uma modificação foi realizada;
+git config --global user.name "Nome e Sobrenome" = configurando o nome do autor atrelado ao Git;
+git config --global user.email "email@email.com" = configurando o e-mail atrelado ao Git;
+git config --global core.editor "Caminho do arquivo code.exe para inicializar com o Git" --wait;
+git init = cria a pasta oculta .git;
+git config user.name = verifica quem é o Autor configurado;
+git config user.email = verifica qual é o e-mail configurado;
+git config core.editor = verifica o caminho configurado do Visual Studio Code no Git;
+git remote = verifica se existe um repositório remoto já configurado;
+git remote-v = detalhes do repositório configurado;
+
+code ou code . = ambos abrem o Visual Studio Code;
+
+ls = informa os arquivos dentro do diretório;
+ls -a = informa as pastas ocultas e arquivos.
+cd /c = move até a raiz c; 
+pwd = informa o diretório atual;
+mkdir = criar diretório/pasta;
+touch arquivo1.txt arquivo2 = cria dois arquivo;
+touch teste/arquivo.txt = cria uma pasta e / um arquivo;
+git add arquivo.txt = adiciona um arquivo específico ao contêiner;
+git add * = a variável "*" adiciona todos os arquivos ao contêiner;
+git checkout t3st3 = retorna para modificação anterior;
+git checkout master = retorna para  modificação atual;
+git checkout arquivo.txt = desfaz as modificações recentes do arquivo;
+git diff = descreve ás alterações realizadas no arquivo.txt;
+git reset HEAD = remove o conteúdo do contêiner;
+git reset --hard t3st3 = volta a modificação anterior do conteúdo;
+git branch = exibe o ramo que se encontra no projeto;
+git checkout -b nome = cria um novo ramo com o nome escolhido;
+git merge teste = serve para fazer uma fusão entre o ramo master e o teste;
+
+clear = limpar a tela;
+
+LOGs:
+
+git log = descrição de modificações detalhadas;
+git log --oneline = descrição de modificações simplificado;
+git log --graph = gráfico com descrição e mais detalhes das modificações realizadas;
+git log --oneline --graph = gráfico com descrição de forma simplificada;
+git log --oneline --graph --all = gráfico com todas as descrições de forma simplificada;
+git log --graph --all = gráfico com todas ás descrições detalhadamente;
+
+COMMITs:
+git commit -m "descrição" = ;
+git commit -am "descrição" = A variável "-am" adiciona o conteúdo ao contêiner e cria um commit ao mesmo tempo;
+
+master = ponto de inicio;
+HEAD = ponto atual;
