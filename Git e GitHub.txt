@@ -19,11 +19,12 @@ code ou code . = ambos abrem o Visual Studio Code;
 
 ls = informa os arquivos dentro do diretório;
 ls -a = informa as pastas ocultas e arquivos.
-cd /c = move até a raiz c; 
+cd /c = move até a raiz c;
+cd .. = retorna 1 nivel;
 pwd = informa o diretório atual;
-mkdir = criar diretório/pasta;
+mkdir = criar uma pasta;
 touch arquivo1.txt arquivo2 = cria dois arquivo;
-touch teste/arquivo.txt = cria uma pasta e / um arquivo;
+touch teste/arquivo.txt = cria um arquivo.txt dentro da pasta teste;
 git add arquivo.txt = adiciona um arquivo específico ao contêiner;
 git add * = a variável "*" adiciona todos os arquivos ao contêiner;
 git checkout t3st3 = retorna para modificação anterior;
